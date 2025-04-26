@@ -320,56 +320,56 @@ echo -e "┌──────────────────────�
 echo -e " \E[41;1;39m         >>> Install Sistem <<<          \E[0m$NC"
 echo -e "└─────────────────────────────────────────┘"
 sleep 1
-wget -q https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/tools/arzsource.sh && chmod +x arzsource.sh && ./arzsource.sh
+wget -q https://raw.githubusercontent.com/taoomatoa/autoscript/main/tools/arzsource.sh && chmod +x arzsource.sh && ./arzsource.sh
 echo -e "┌─────────────────────────────────────────┐"
 echo -e " \E[41;1;39m          >>> Install SSH / WS <<<        \E[0m$NC"
 echo -e "└─────────────────────────────────────────┘"
 sleep 1
-wget -q https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/tools/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget -q https://raw.githubusercontent.com/taoomatoa/autoscript/main/tools/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 echo -e "┌─────────────────────────────────────────┐"
 echo -e " \E[41;1;39m            >>> Install Xray <<<         \E[0m$NC"
 echo -e "└─────────────────────────────────────────┘"
 sleep 1
-wget -q https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/tools/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget -q https://raw.githubusercontent.com/taoomatoa/autoscript/main/tools/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 echo -e "┌─────────────────────────────────────────┐"
 echo -e " \E[41;1;39m            >>> Install BR <<<           \E[0m$NC"
 echo -e "└─────────────────────────────────────────┘"
 sleep 1
-wget -q https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget -q https://raw.githubusercontent.com/taoomatoa/autoscript/main/backup/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 echo -e "┌─────────────────────────────────────────┐"
 echo -e " \E[41;1;39m            >>> Install slowdns <<<           \E[0m$NC"
 echo -e "└─────────────────────────────────────────┘"
 sleep 1
 wget https://raw.githubusercontent.com/Andyvpn/Autoscript-by-azi/main/autoscript-ssh-slowdns-main/slowdns.sh && chmod +x slowdns.sh && ./slowdns.sh
 echo -e "${GREEN}Download Data${NC}"
-wget -q -O /usr/bin/usernew "https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/usernew.sh"
-wget -q -O /usr/bin/add-ws "https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/add-ws.sh"
-wget -q -O /usr/bin/add-ssws "https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/add-ssws.sh"
-wget -q -O /usr/bin/add-vless "https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/add-vless.sh"
-wget -q -O /usr/bin/add-tr "https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/add-tr.sh"
-wget -q -O /usr/bin/autoreboot "https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/options/autoreboot.sh"
-wget -q -O /usr/bin/restart "https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/options/restart.sh"
-wget -q -O /usr/bin/tendang "https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/options/tendang.sh"
-wget -q -O /usr/bin/clearlog "https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/options/clearlog.sh"
-wget -q -O /usr/bin/running "https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/options/running.sh"
-wget -q -O /usr/bin/speedtest "https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/tools/speedtest_cli.py"
-wget -q -O /usr/bin/cek-bandwidth "https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/options/cek-bandwidth.sh"
-wget -q -O /usr/bin/limitspeed "https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/options/limitspeed.sh"
-wget -q -O /usr/bin/menu-vless "https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/menu/menu-vless.sh"
-wget -q -O /usr/bin/menu-vmess "https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/menu/menu-vmess.sh"
-wget -q -O /usr/bin/menu-ss "https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/menu/menu-ss.sh"
-wget -q -O /usr/bin/menu-trojan "https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/menu/menu-trojan.sh"
-wget -q -O /usr/bin/menu-ssh "https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/menu/menu-ssh.sh"
-wget -q -O /usr/bin/menu-backup "https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/menu/menu-backup.sh"
-wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/menu/menu.sh"
-wget -q -O /usr/bin/webmin "https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/options/webmin.sh"
-wget -q -O /usr/bin/xp "https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/xp.sh"
-wget -q -O /usr/bin/update "https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/options/update.sh"
-wget -q -O /usr/bin/addhost "https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/menu/addhost.sh"
-wget -q -O /usr/bin/certxray "https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/menu/crt.sh"
-wget -q -O /usr/bin/menu-set "https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/menu/menu-set.sh"
-wget -q -O /usr/bin/info "https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/options/info.sh"
-wget -q -O /usr/bin/infoserv "https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/options/infoserv.sh"
+wget -q -O /usr/bin/usernew "https://raw.githubusercontent.com/taoomatoa/autoscript/main/usernew.sh"
+wget -q -O /usr/bin/add-ws "https://raw.githubusercontent.com/taoomatoa/autoscript/main/add-ws.sh"
+wget -q -O /usr/bin/add-ssws "https://raw.githubusercontent.com/taoomatoa/autoscript/main/add-ssws.sh"
+wget -q -O /usr/bin/add-vless "https://raw.githubusercontent.com/taoomatoa/autoscript/main/add-vless.sh"
+wget -q -O /usr/bin/add-tr "https://raw.githubusercontent.com/taoomatoa/autoscript/main/add-tr.sh"
+wget -q -O /usr/bin/autoreboot "https://raw.githubusercontent.com/taoomatoa/autoscript/main/options/autoreboot.sh"
+wget -q -O /usr/bin/restart "https://raw.githubusercontent.com/taoomatoa/autoscript/main/options/restart.sh"
+wget -q -O /usr/bin/tendang "https://raw.githubusercontent.com/taoomatoa/autoscript/main/options/tendang.sh"
+wget -q -O /usr/bin/clearlog "https://raw.githubusercontent.com/taoomatoa/autoscript/main/options/clearlog.sh"
+wget -q -O /usr/bin/running "https://raw.githubusercontent.com/taoomatoa/autoscript/main/options/running.sh"
+wget -q -O /usr/bin/speedtest "https://raw.githubusercontent.com/taoomatoa/autoscript/main/tools/speedtest_cli.py"
+wget -q -O /usr/bin/cek-bandwidth "https://raw.githubusercontent.com/taoomatoa/autoscript/main/options/cek-bandwidth.sh"
+wget -q -O /usr/bin/limitspeed "https://raw.githubusercontent.com/taoomatoa/autoscript/main/options/limitspeed.sh"
+wget -q -O /usr/bin/menu-vless "https://raw.githubusercontent.com/taoomatoa/autoscript/main/menu/menu-vless.sh"
+wget -q -O /usr/bin/menu-vmess "https://raw.githubusercontent.com/taoomatoa/autoscript/main/menu/menu-vmess.sh"
+wget -q -O /usr/bin/menu-ss "https://raw.githubusercontent.com/taoomatoa/autoscript/main/menu/menu-ss.sh"
+wget -q -O /usr/bin/menu-trojan "https://raw.githubusercontent.com/taoomatoa/autoscript/main/menu/menu-trojan.sh"
+wget -q -O /usr/bin/menu-ssh "https://raw.githubusercontent.com/taoomatoa/autoscript/main/menu/menu-ssh.sh"
+wget -q -O /usr/bin/menu-backup "https://raw.githubusercontent.com/taoomatoa/autoscript/main/menu/menu-backup.sh"
+wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/taoomatoa/autoscript/main/menu/menu.sh"
+wget -q -O /usr/bin/webmin "https://raw.githubusercontent.com/taoomatoa/autoscript/main/options/webmin.sh"
+wget -q -O /usr/bin/xp "https://raw.githubusercontent.com/taoomatoa/autoscript/main/xp.sh"
+wget -q -O /usr/bin/update "https://raw.githubusercontent.com/taoomatoa/autoscript/main/options/update.sh"
+wget -q -O /usr/bin/addhost "https://raw.githubusercontent.com/taoomatoa/autoscript/main/menu/addhost.sh"
+wget -q -O /usr/bin/certxray "https://raw.githubusercontent.com/taoomatoa/autoscript/main/menu/crt.sh"
+wget -q -O /usr/bin/menu-set "https://raw.githubusercontent.com/taoomatoa/autoscript/main/menu/menu-set.sh"
+wget -q -O /usr/bin/info "https://raw.githubusercontent.com/taoomatoa/autoscript/main/options/info.sh"
+wget -q -O /usr/bin/infoserv "https://raw.githubusercontent.com/taoomatoa/autoscript/main/options/infoserv.sh"
 chmod +x /usr/bin/usernew
 chmod +x /usr/bin/add-ws
 chmod +x /usr/bin/add-ssws
@@ -435,7 +435,7 @@ if [ ! -f "/etc/log-create-user.log" ]; then
 echo "Log All Account " > /etc/log-create-user.log
 fi
 history -c
-serverV=$( curl -sS https://raw.githubusercontent.com/taoomatoa/autoscript/main/main/version  )
+serverV=$( curl -sS https://raw.githubusercontent.com/taoomatoa/autoscript/main/version  )
 echo $serverV > /opt/.ver
 aureb=$(cat /home/re_otm)
 b=11
